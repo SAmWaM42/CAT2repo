@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    background:#222;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.player{
+    width:800px;
+    background:#111;
+    border-radius:8px;
+    overflow:hidden;
+}
+
+video{
+    width:100%;
+    display:block;
+    background:black;
+}
+
+.controls{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:10px;
+    background:#333;
+    color:white;
+}
+
+button{
+    padding:8px 12px;
+    cursor:pointer;
+}
+
+#progress{
+    flex:1;
+}
+
+#volume{
+    width:100px;
+}
